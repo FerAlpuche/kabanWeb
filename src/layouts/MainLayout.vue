@@ -48,7 +48,7 @@
 
 <script>
 import EssentialLink from 'components/EssentialLink.vue'
-
+import '../css/estilos.css'
 const linksData = [
   {
     title: 'Proyecto',
@@ -60,7 +60,8 @@ const linksData = [
   },
   {
     title: 'Product Backlog',
-    icon: 'chat'
+    icon: 'chat',
+    to: '/ProductBacklog'
   },
   {
     title: 'Tablero Kavan',
